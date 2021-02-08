@@ -11,8 +11,10 @@ function playGame(playerInput) {
 
     displayResult(computerMove, playerMove);
 
-    printMessage('Odśwież stronę, aby spróbować ponownie...');
 }
+
+let x = 0;
+let y = 0;
 
 document.getElementById('play-rock').addEventListener('click', function () {
     playGame(1);

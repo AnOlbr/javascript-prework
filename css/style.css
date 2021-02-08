@@ -1,11 +1,32 @@
-body { font-size: 25px; font-family: sans-serif; background: #ccc; width: 100%; height: 100%; }
+body {
+  font-size: 25px;
+  font-family: sans-serif;
+  background: #ccc;
+  width: 100%;
+  height: 100%;
+}
 
-.container { width: 70%; margin: 30px auto; text-align: center; }
+.container {
+  width: 70%;
+  margin: 30px auto;
+  text-align: center;
+}
 
-#buttons { margin: 40px auto; }
+#buttons {
+  margin: 40px auto;
+}
 
-#messages { line-height: 2; }
+#messages {
+  line-height: 2;
+}
 
-button { font-size: 35px; padding: 15px; border-radius: 10px; }
+button {
+  font-size: 35px;
+  padding: 15px;
+  border-radius: 10px;
+}
 
-button:active { background: yellow; }
+button:active {
+  background: yellow;
+}
+/*# sourceMappingURL=style.css.map */

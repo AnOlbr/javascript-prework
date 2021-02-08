@@ -28,16 +28,22 @@ function displayResult(argComputerMove, argPlayerMove) {
         printMessage('Remis!')
     } else if (argComputerMove == 'kamień' && argPlayerMove == 'papier') {
         printMessage('Ty wygrywasz!');
+        x++;
     } else if (argComputerMove == 'papier' && argPlayerMove == 'nożyce') {
         printMessage('Ty wygrywasz!');
+        x++;
     } else if (argComputerMove == 'nożyce' && argPlayerMove == 'kamień') {
         printMessage('Ty wygrywasz!');
+        x++;
     } else if (argComputerMove == 'kamień' && argPlayerMove == 'papier') {
         printMessage('Przegrałeś!');
+        y++;
     } else if (argComputerMove == 'papier' && argPlayerMove == 'nożyce') {
         printMessage('Przegrałeś!');
+        y++;
     } else {
         printMessage('Przegrałeś!');
+        y++;
     }
-
+    printMessage(x + ':' + y);
 }
