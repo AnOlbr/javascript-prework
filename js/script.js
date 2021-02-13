@@ -7,15 +7,15 @@
 
         console.log('Gracz wpisał: ' + playerInput);
 
-        let playerMove = getMoveName(playerInput);
-        let computerMove = getMoveName(randomNumber);
+        let playerMove = getMoveName(playerInput),
+            computerMove = getMoveName(randomNumber);
 
         displayResult(computerMove, playerMove);
 
     }
 
-    let x = 0;
-    let y = 0;
+    let x = 0,
+        y = 0;
 
     document.getElementById('play-rock').addEventListener('click', function () {
         playGame(1);
